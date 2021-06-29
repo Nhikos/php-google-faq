@@ -71,19 +71,41 @@ $faqs = [
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
     <body>
-    <section class="container">
-        <ul>
-            <?php foreach($faqs as $faq) { ?>
-            <li class="no_style">
-                <h2><?= $faq["question"]; ?></h2>
-                <span><?= $faq["answer"]; ?></span>
-            </li>
-            <?php } ?>
-        </ul>
-    </section>
+        <header>
+            <nav>
+                <div class="nav-top">
+                    <div>
+                        <img src="./img/google-logos.png" alt="">
+                        <span>Privacy e termini</span>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-th"></i></span>
+                        <img src="./img/profile-image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="nav-bottom">
+                    <h4>Introduzione</h4>
+                    <h4>Norme sulla privacy</h4>
+                    <h4>Termini di servizio</h4>
+                    <h4>Tecnologie</h4>
+                    <h4 class="active">Domande frequenti</h4>
+                </div>
+            </nav>
+        </header>
+        <section class="container">
+            <ul>
+                <?php foreach($faqs as $faq) { ?>
+                <li class="no_style">
+                    <h2><?= $faq["question"]; ?></h2>
+                    <span><?= $faq["answer"]; ?></span>
+                </li>
+                <?php } ?>
+            </ul>
+        </section>
     </body>
 </html>
