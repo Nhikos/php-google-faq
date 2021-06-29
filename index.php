@@ -48,7 +48,7 @@ $faqs = [
 
         <p>I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.</p>
 
-        <p>Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a href='#'>Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.</p>",
+        <p>Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a href='#'>Contattaci <i class='fas fa-external-link-alt'></i></a> se ritieni che il paese associato al tuo account sia sbagliato.</p>",
     ],
     [
         "question" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?",
